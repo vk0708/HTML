@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Basics</title>
+    <style>
+        body{
+            background-color: rgb(189, 247, 228);
+        }
+        p{
+            color: rgb(235, 70, 29);
+        }
+        .place{
+            color: #6d6a6a;
+        }
+        #box{
+            background-color: greenyellow;
+        }
+        #child1{
+            background-color: darkred;
+            height: 200px;
+            width: 200px;
+        }
+        #child2{
+            background-color: rgb(29, 83, 231);
+            height: 200px;
+            width: 200px;
+        }
+        .heading{
+            color: rgb(231, 207, 207);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>HTML5 Basics</h1>
+    <p>Lorem ipsum <b>dolor, sit</b> amet <i>consectetur</i></i> adipisicing.</p> 
+    CO<sub>2</sub> and 2<sup>2</sup>=4
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ul>
+    <img src="not found" alt="This is a Car image"><br>
+    <a href="https://www.google.com" target="_blank">Google Search</a>
+
+    <div id="box">
+        <h2 style="color: crimson;">Register Form</h2>
+    <form action="../../HTML/index.html" method="get">
+        <label for="">Enter Name</label>
+        <input type="text" name="Name" placeholder="Enter your name" id="">
+
+        <label for="">Enter Email</label>
+        <input type="email" name="mail" id="" placeholder="Enter Your Email">
+
+        <label for="">Password</label>
+        <input type="password" name="pass" placeholder="Enter password" id=""> <br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender"><label class="place">Male</label>
+        <input type="radio" name="gender"><label class="place">Female</label>
+        <input type="radio" name="gender"><label class="place">Other</label>
+        <input type="checkbox" name="checked" id="">Checked
+
+        <br><input type="submit" value="Register"><br>
+
+    </form>
+    </div>
+
+    <div id="parent">
+        <div id="child1">
+            <h1 class="heading">Div 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+        </div>
+
+        <div id="child2">
+            <h1 class="heading">Div 2</h1>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </div>
+    </div>   
+</body>
+</html>
